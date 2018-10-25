@@ -148,4 +148,4 @@ RUN mkdir /usr/codecs && \
     curl -O http://asterisk.hosting.lv/bin/codec_g729-ast160-gcc4-glibc-x86_64-core2.so && \
     curl -O http://asterisk.hosting.lv/bin/codec_g729-ast160-gcc4-glibc-x86_64-opteron-sse3.so && \
     curl -O http://asterisk.hosting.lv/bin/codec_g729-ast160-gcc4-glibc-x86_64-opteron.so && \
-    curl -O http://asterisk.hosting.lv/bin/codec_g729-ast160-gcc4-glibc-x86_64-pentium4.so && \
+    curl -O http://asterisk.hosting.lv/bin/codec_g729-ast160-gcc4-glibc-x86_64-pentium4.so
