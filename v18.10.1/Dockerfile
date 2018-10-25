@@ -38,7 +38,7 @@ RUN curl -sf \
     contrib/scripts/install_prereq install
 
 RUN cd /tmp/asterisk && \
-    ./configure --disable-xmldoc
+    ./configure --disable-xmldoc --with-jansson-bundled
 
 RUN cd /tmp/asterisk && \
     make menuselect.makeopts && \
